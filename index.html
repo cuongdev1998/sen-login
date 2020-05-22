@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Login version 1.0</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <div class="form__sub">
+          <form class="form__login" action="">
+            <h2>Login</h2>
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input
+                type="text"
+                name="username"
+                class="username-input"
+                autocomplete="none"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="text"
+                name="password"
+                class="password-input"
+                autocomplete="none"
+              />
+            </div>
+            <button type="button">Login</button>
+            <p class="text-regist">I haven't any account</p>
+          </form>
+        </div>
+        <div class="form__sub">
+          <form class="form__regist" action="">
+            <h2>Regist</h2>
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input
+                type="text"
+                name="username"
+                class="username-input"
+                autocomplete="none"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="text"
+                name="password"
+                class="password-input"
+                autocomplete="none"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password-confirm">Password confirm</label>
+              <input
+                type="text"
+                name="password-confirm"
+                class="password-confirm-input"
+                autocomplete="none"
+              />
+            </div>
+            <button type="button">Regist</button>
+            <p class="text-login">I have account!</p>
+          </form>
+        </div>
+        <div class="form__door">
+          <div class="form__door--circle">
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
